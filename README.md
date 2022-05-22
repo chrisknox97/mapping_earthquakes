@@ -9,8 +9,6 @@
 ### Deliverable 1: Tectonic Plates
 
 Having already created a map showcasing ``Earthquakes Over The Last 7 Days``, we first decided to add a new layer that would display the ``Tectonic Plates`` and how these earthquakes aligned with said faults lines. To create this new layer we had to do the following:
-
-<img align="right" src="https://github.com/chrisknox97/mapping_earthquakes/blob/main/PNGs/Deliverable1.png">
     
     // Initialize New Layer
     let tectonic = new L.LayerGroup();
@@ -30,12 +28,12 @@ Having already created a map showcasing ``Earthquakes Over The Last 7 Days``, we
     
     // Add Our New Layer To Our Webpage
       }).addTo(tectonic)
+      
+![D1](https://github.com/chrisknox97/mapping_earthquakes/blob/main/PNGs/Deliverable1.png) 
 
 ### Deliverable 2: Major Earthquakes
 
 Once We completed our first new layer, we then took on the task of creating a third layer centered on only the ``Most Severe Earthquakes`` (scoring a 4.5 or greater on the Ritcher Scale over the past 7 days.) To create this chart, we followed the process established in deliverable one, as seen below. 
-
-<img align="right" src="https://github.com/chrisknox97/mapping_earthquakes/blob/main/PNGs/Deliverable2.png">
 
     // Initialize New Layer
     let major = new L.LayerGroup();
@@ -107,11 +105,11 @@ Once We completed our first new layer, we then took on the task of creating a th
     // Add Our New Layer To Our WebPage
     }).addTo(major);   
     
+![D2](https://github.com/chrisknox97/mapping_earthquakes/blob/main/PNGs/Deliverable2.png) 
+    
 ### Deliverable 3: Dark Mode
 
 Finally, our last task saw us add a new map style to the webpage by creating a third tile layer (``Dark Mode``) and adding that layer to our base layer.
-
-<img align="right" src="https://github.com/chrisknox97/mapping_earthquakes/blob/main/PNGs/Deliverable3.png">
 
     // Create A Third Tile Layer 
     let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -122,7 +120,9 @@ Finally, our last task saw us add a new map style to the webpage by creating a t
     });
     
     // let baseMaps = {
-      "Dark": dark};
+      "Dark": dark};      
+
+![D3](https://github.com/chrisknox97/mapping_earthquakes/blob/main/PNGs/Deliverable3.png)     
     
 ## Summary
 
