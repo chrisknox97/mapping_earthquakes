@@ -2,8 +2,7 @@
 
 ## Overview
 
-### To create filterable maps based on stylized imagery (Street View, Satellite View, Dark Mode) and selected data layers (Earthquakes Occurring
-Over The Past Week, Major Earthquakes Occurring over the Last Week, Tectonic Plate Outlines) in an HTML-based webpage. 
+### To create filterable maps based on stylized imagery (Street View, Satellite View, Dark Mode) and selected data layers (Earthquakes Occurring Over The Past Week, Major Earthquakes Occurring Over The Last Week, Tectonic Plate Outlines) in an HTML-based webpage. 
 
 ## Results
 
